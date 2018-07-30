@@ -1,0 +1,13 @@
+{
+	"name": "eve-sde-parser-d",
+	"authors": [
+		"Erik van Velzen"
+	],
+	"description": "Parser of the Eve Static Data Export written in D",
+	"copyright": "Copyright © 2018, Erik van Velzen",
+	"license": "proprietary",
+	"dependencies": {
+		"requests": "~>0.8.2",
+		"dyaml": "~>0.7.0"
+	}
+}
