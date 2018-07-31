@@ -6,7 +6,21 @@ Not all types are implemented but they can be added easily.
 
 ## Installation
 
-todo
+dub.json:
+
+```
+{
+	"dependencies": {
+		"eve-sde-parser-d": "~>0.2.0"
+	}
+}
+```
+
+dub.sdl:
+
+```
+dependency "eve-sde-parser-d"
+```
 
 ## Usage
 

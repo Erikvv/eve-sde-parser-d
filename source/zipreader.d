@@ -15,9 +15,9 @@ Node extractItemTypes(ZipArchive zipArchive) {
     return rootNode;
 }
 
-// unittest {
-//     auto zip = fetchZip();
-//     auto rootNode = extractItemTypes(zip);
-//     auto numberOfItems = rootNode.length;
-//     assert(numberOfItems > 30_000);
-// }
+unittest {
+    auto zip = fetchZip();
+    auto rootNode = extractItemTypes(zip);
+    auto numberOfItems = rootNode.length;
+    assert(numberOfItems > 30_000);
+}
