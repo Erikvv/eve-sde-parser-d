@@ -2,6 +2,7 @@
 docs.json
 __dummy.html
 docs/
+eve-sde-parser-d
 eve-sde-parser-d.so
 eve-sde-parser-d.dylib
 eve-sde-parser-d.dll
